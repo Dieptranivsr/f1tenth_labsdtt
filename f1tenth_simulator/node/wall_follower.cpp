@@ -9,7 +9,7 @@
 // #WALL FOLLOW PARAMS
 #define ANGLE_RANGE 270 			// Hokuyo 10LX has 270 degrees scan
 #define DESIRED_DISTANCE_RIGHT 0.9 	// meters
-#define DESIRED_DISTANCE_LEFT 0.55
+#define DESIRED_DISTANCE_LEFT 1.2		//0.55   //1.00
 #define VELOCITY 2.00 			// meters per second
 #define CAR_LENGTH 0.50 			// Traxxas Rally is 20 inches or 0.5 meters
 #define PI 3.1415927
@@ -26,7 +26,7 @@ private:
 	double velocity, delta_t;
 	double pre_t = ros::Time::now().toSec();
 
-	double b_angle = 110.0 / 180.0 * PI;			//90 bad  // 105 good
+	double b_angle = 90.0 / 180.0 * PI;			//90 bad  // 105 good
 	double a_angle = 45.0 / 180.0 * PI;
 
 	double a = 0.0;
@@ -41,9 +41,9 @@ public:
 	WallFollower() {
 		n = ros::NodeHandle("~");
 
-		kp = 0.4;		// 0.4;   // 1.5
+		kp = 1.5;		// 0.4;   // 1.5
 		ki = 0.05;
-		kd = 0.12;		// 0.12;  // 0.25
+		kd = 0.25;		// 0.12;  // 0.25
 		servo_offset = 0.0;
 		prev_error = 0.0;
 		error = 0.0;
@@ -71,6 +71,8 @@ public:
 		// Outputs length in meters to object with angle in lidar scan field of view
 		// make sure to take care of nans etc.
 		// TODO: implement
+
+		std::cout << "MIN ANGLE : " << _scan_msg.angle_min << " - MAX ANGLE : " << _scan_msg.angle_max << std::endl;
 
 		unsigned int b_index = (unsigned int)(floor((90.0 / 180.0 * PI - _scan_msg.angle_min) / _scan_msg.angle_increment));
 		unsigned int a_index;
@@ -117,16 +119,16 @@ public:
 
 		pre_t = t_moment;
 
-        if (abs(angle) > 0 && abs(angle) < 10 / 180 * PI)
+        if (abs(angle) > 0 && abs(angle) < 10)
             velocity = 1.5;
-        else if (abs(angle) > 10 / 180 * PI && abs(angle) < 20 / 180 * PI)
+        else if (abs(angle) > 10 && abs(angle) < 20)
             velocity = 1;
         else
             velocity = 0.5;
 
         drive_msg.header.stamp = ros::Time::now();
         drive_msg.header.frame_id = "laser";
-        drive_msg.drive.steering_angle = angle;
+        drive_msg.drive.steering_angle = angle / 180 * PI; //angle / 180 * PI;
         drive_msg.drive.speed = velocity;
         pub_1.publish(drive_msg);
 

@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Begin the automatic emergency braking with the parameters from params.yaml -->
+  <node pkg="f1tenth_simulator" name="reactive_gap_follow" type="reactive_gap_follow" output="screen">
+    <rosparam command="load" file="$(find f1tenth_simulator)/params.yaml"/>
+  </node>
+</launch>
