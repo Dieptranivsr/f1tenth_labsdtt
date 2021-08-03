@@ -1,10 +1,11 @@
 # f1tenth_labsdtt
 ## All labs for F1TENTH Autonomous Racing Course. See f1tenth.org for more information.
 ### 
-![SimplifiedgraphofROSnodes (1)](https://user-images.githubusercontent.com/69444682/126677447-7afa3166-ff22-473f-ba71-5074623fbc61.png)
+![SimplifiedgraphofROSnodes (2)](https://user-images.githubusercontent.com/69444682/127967385-86c770c9-c32e-49d5-9a93-d8b14ffd4d60.png)
 
 Simplified graph of ROS nodes
 F1TENTH LAB ASSIGNMENT
 * Lab1 - lidar_processing.cpp
 * Lab2 - automatic_emergency_braking.cpp
 * Lab3 - wall_follower.cpp
+* Lab4 - reactive_gap_follow.cpp
