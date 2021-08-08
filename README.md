@@ -10,6 +10,6 @@ F1TENTH LAB ASSIGNMENT
 3. Lab3 - wall_follower.cpp
 4. Lab4 
 
-⋅⋅⋅ - reactive_gap_follow.cpp. ⋅⋅
-⋅⋅⋅ - reactive_gap_v2.cpp. ⋅⋅
-⋅⋅⋅ - reactive_gap.py. ⋅⋅
+⋅⋅⋅ reactive_gap_follow.cpp. ⋅⋅
+⋅⋅⋅ reactive_gap_v2.cpp. ⋅⋅
+⋅⋅⋅ reactive_gap.py. ⋅⋅
