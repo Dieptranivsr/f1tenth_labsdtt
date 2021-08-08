@@ -5,9 +5,11 @@
 
 Simplified graph of ROS nodes
 F1TENTH LAB ASSIGNMENT
-* Lab1 - lidar_processing.cpp
-* Lab2 - automatic_emergency_braking.cpp
-* Lab3 - wall_follower.cpp
-* Lab4 - reactive_gap_follow.cpp
-⋅⋅⋅⋅⋅⋅ - reactive_gap_v2.cpp. ⋅⋅
-⋅⋅⋅⋅⋅⋅ - reactive_gap.py. ⋅⋅
+1. Lab1 - lidar_processing.cpp
+2. Lab2 - automatic_emergency_braking.cpp
+3. Lab3 - wall_follower.cpp
+4. Lab4 
+
+⋅⋅⋅ - reactive_gap_follow.cpp. ⋅⋅
+⋅⋅⋅ - reactive_gap_v2.cpp. ⋅⋅
+⋅⋅⋅ - reactive_gap.py. ⋅⋅
