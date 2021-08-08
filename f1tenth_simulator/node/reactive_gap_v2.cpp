@@ -241,12 +241,12 @@ public:
 		std::vector<int> end; 	// end is a collection of all indices where the zeroes end
 
 		for( auto k : bound_mat){
-	        strt.push_back(k.at(0));
-	        end.push_back(k.at(k.size()-1));
-	    }
+			strt.push_back(k.at(0));
+			end.push_back(k.at(k.size()-1));
+		}
 
 		strt.push_back(proc_ranges.size());		// Putting length of ranges to the end
-		end.insert(end.begin(),-1);				// Adding -1 to the start for proper gap length calculation
+		end.insert(end.begin(),-1);			// Adding -1 to the start for proper gap length calculation
 
 		// Array for all gap lengths
 		std::vector<int> comp;
@@ -323,8 +323,8 @@ public:
 		drive_msg.header.stamp = ros::Time::now();
 		drive_msg.header.frame_id = "laser";
 		drive_msg.drive.steering_angle = angle;
-        drive_msg.drive.speed = _velocity;
-        drive_pub.publish(drive_msg);
+		drive_msg.drive.speed = _velocity;
+		drive_pub.publish(drive_msg);
 	}
 };
 
