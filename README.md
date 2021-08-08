@@ -9,3 +9,5 @@ F1TENTH LAB ASSIGNMENT
 * Lab2 - automatic_emergency_braking.cpp
 * Lab3 - wall_follower.cpp
 * Lab4 - reactive_gap_follow.cpp
+       - reactive_gap_v2.cpp
+       - reactive_gap.py
