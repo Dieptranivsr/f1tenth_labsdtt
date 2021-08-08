@@ -20,7 +20,8 @@ private:
 	// Topics & Subscriptions,Publishers
 	ros::Subscriber sub_1;		// Subscribe to LIDAR
 
-	ros::Publisher drive_pub;	//pub_1;		// Publish to drive
+	//ros::Publisher pub_1;
+	ros::Publisher drive_pub;	// Publish to drive
 
 	sensor_msgs::LaserScan _scan;
 
@@ -37,9 +38,9 @@ private:
 	double cp_blo = 1.5;	// get_param("/reactive/cp_threshold")
 	double d_st_ang = 0.0;	// get_param("/reactive/desired_steering_angle")
 	Eigen::Vector3d velocity = Eigen::Vector3d(1,2,3);
-							// get_param("/reactive/velocity")
+						// get_param("/reactive/velocity")
 	Eigen::Vector2d steer_lim = Eigen::Vector2d(15,25);
-							// get_param("/reactive/steer_angle_limits")
+						// get_param("/reactive/steer_angle_limits")
 
 	double kp = 0.7;		// get_param("/reactive/kp")
 	double kd = 0.0;		// get_param("/reactive/kd")
