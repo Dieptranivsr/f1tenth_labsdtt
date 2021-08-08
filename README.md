@@ -5,7 +5,7 @@
 
 Simplified graph of ROS nodes
 F1TENTH LAB ASSIGNMENT
-1. Lab1 - lidar_processing.cpp
+1. Lab1 - [lidar_processing.cpp](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/lidar_processing.cpp)
 2. Lab2 - automatic_emergency_braking.cpp
 3. Lab3 - wall_follower.cpp
 4. Lab4
