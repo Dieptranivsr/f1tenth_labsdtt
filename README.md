@@ -5,7 +5,7 @@
 
 Simplified graph of ROS nodes
 ___
-[F1TENTH LAB ASSIGNMENT](../blob/master/f1tenth_labs)
+[F1TENTH LAB ASSIGNMENT](https://github.com/Dieptranivsr/f1tenth_labsdtt/tree/main/f1tenth_labs)
 1. Lab1 
    - [lidar_processing.cpp](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/lidar_processing.cpp)
 2. Lab2 
