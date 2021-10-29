@@ -2,7 +2,31 @@
 ## All labs for F1TENTH Autonomous Racing Course. See [f1tenth.org](https://f1tenth.org/learn.html) for more information.
 ### 
 ![SimplifiedgraphofROSnodes (2)](https://user-images.githubusercontent.com/69444682/127967385-86c770c9-c32e-49d5-9a93-d8b14ffd4d60.png)
-
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 ___
 ## Simplified graph of ROS nodes
 [F1TENTH LAB ASSIGNMENT](https://github.com/Dieptranivsr/f1tenth_labsdtt/tree/main/f1tenth_labs)
