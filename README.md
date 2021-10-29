@@ -25,6 +25,6 @@ ___
 ## Run package in [f1tenth_simulator](https://github.com/Dieptranivsr/f1tenth_labsdtt/tree/main/f1tenth_simulator/launch)
 1.
 6. Lab6
-   - recording the locations with a [Waypoint Logger](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/waypoint_logger.py). Then, it will  export file.csv that include desired points
+   - recording the locations with a [Waypoint Logger](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/waypoint_logger.py). Then, it will  export file.csv that includes desired points
    - Run `$ roslaunch f1tenth_simulator simulator3.launch` and `$ roslaunch f1tenth_simulator lab6.launch`
    
