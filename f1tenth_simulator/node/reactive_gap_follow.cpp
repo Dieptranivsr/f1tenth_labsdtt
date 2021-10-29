@@ -25,7 +25,6 @@ private:
 public:
 	Reactive_follow_gap(){
 
-
         sub_1 = n.subscribe("/scan", 1000, &Reactive_follow_gap::lidar_callback, this);
 
         pub_1 = n.advertise<ackermann_msgs::AckermannDriveStamped>("/nav", 1000);

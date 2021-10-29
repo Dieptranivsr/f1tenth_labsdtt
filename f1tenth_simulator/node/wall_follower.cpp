@@ -9,7 +9,7 @@
 // #WALL FOLLOW PARAMS
 #define ANGLE_RANGE 270 			// Hokuyo 10LX has 270 degrees scan
 #define DESIRED_DISTANCE_RIGHT 0.9 	// meters
-#define DESIRED_DISTANCE_LEFT 1.2		//0.55   //1.00
+#define DESIRED_DISTANCE_LEFT 1		//0.55   //1.00   //1.2
 #define VELOCITY 2.00 			// meters per second
 #define CAR_LENGTH 0.50 			// Traxxas Rally is 20 inches or 0.5 meters
 #define PI 3.1415927
