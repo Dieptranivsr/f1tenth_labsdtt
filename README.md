@@ -16,6 +16,7 @@ ___
    - [reactive_gap_follow.cpp](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/reactive_gap_follow.cpp)
    - [reactive_gap_v2.cpp](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/reactive_gap_v2.cpp)
    - [reactive_gap.py](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/reactive_gap.py)
-
-
-![screenshot](screenshot.gif)
+5. Lab5
+   - [scan_matching.cpp](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/scan_match.cpp)
+6. Lab6
+   - [pure_persuit.cpp](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/pure_pursuit.cpp)
