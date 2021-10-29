@@ -20,3 +20,7 @@ ___
    - [scan_matching.cpp](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/scan_match.cpp)
 6. Lab6
    - [pure_persuit.cpp](https://github.com/Dieptranivsr/f1tenth_labsdtt/blob/main/f1tenth_simulator/node/pure_pursuit.cpp)
+
+
+Run package in [f1tenth_simulator](https://github.com/Dieptranivsr/f1tenth_labsdtt/tree/main/f1tenth_simulator/launch)
+___
